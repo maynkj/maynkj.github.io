@@ -16,7 +16,7 @@ body {
 
 section {
   max-width: 520px;
-  margin: 7em auto;
+  margin: 2em auto;
   padding: 0 10px;
 }
 
@@ -26,14 +26,29 @@ h1, h2 {
 
 h1 {
   margin-bottom: 0.5em;
-  font-size: 1.9em;
+  font-size: 1.2em;
 }
 
 h2 {
-  margin: 1.6em 0 0.6em;
-  font-size: 1.2em;
+  margin-top: 1.6em;
+  font-size: 1.1em;
 }
 
 p {
    line-height: 1.3em;
+}
+
+a {
+  color: #463486;
+}
+
+@media only screen and (min-width: 768px) {
+
+  section {
+    margin-top: 7em;
+  }
+
+  h1 {
+    font-size: 1.9em;
+  }
 }
