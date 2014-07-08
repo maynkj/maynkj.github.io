@@ -60,6 +60,14 @@ header a:hover {
   color: rgba(188, 143, 143, 1);
 }
 
+#contact a {
+  color: black;
+}
+
+#website {
+  display: none;
+}
+
 #bio a, #experience a {
   color: black;
   padding: 0.1em 0.3em;
@@ -113,6 +121,10 @@ header a:hover {
   #experience, #education,
   #contact {
     max-width: 380px;
+  }
+
+  #website {
+    display: block;
   }
 
   a {
