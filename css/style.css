@@ -53,22 +53,20 @@ header li {
 }
 
 header a {
-  color: rgba(87, 100, 109, 0.6);
+  color: rgba(188, 143, 143, 0.9);
 }
 
 header a:hover {
-  color: rgba(87, 100, 109, 0.8);
+  color: rgba(188, 143, 143, 1);
 }
 
 #bio a, #experience a {
   color: black;
   padding: 0.1em 0.3em;
-  background: rgba(188, 143, 143, 0.6);
-  text-decoration: none;
 }
 
 #bio a:hover, #experience a:hover {
-  background: rgba(188, 143, 143, 0.7);
+  color: rgba(188, 143, 143, 1);
 }
 
 #experience h3 {
@@ -107,8 +105,14 @@ header a:hover {
 
 @media only print {
   body {
-    font-size: 0.87em;
+    font-size: 0.8em;
     line-height: 1.5em;
+  }
+
+  header, #bio, #skills,
+  #experience, #education,
+  #contact {
+    max-width: 380px;
   }
 
   a {
